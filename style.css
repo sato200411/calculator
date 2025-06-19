@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+
+    background-image: url("images/calc_tsukatte.com.jpg"); /* 花柄テクスチャ例 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.screen {
+  width: 90%;
+  height: 80px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: right;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+button {
+  flex: 1 0 calc(25% - 7.5px); /* 横幅25%で最大4つ並ぶ */
+  box-sizing: border-box;
+  height: 60px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #dcdcdca4;
+  cursor: pointer;
+}
+
+/* 3つ分にしたいボタンは75% */
+button.triple {
+  flex: 1 0 calc(75% - 7.5px);
+}
+
+/* その他スタイル */
+button.operator {
+  background-color: #f363b7;
+}
+
+button.back {
+  background-color: #f3adc8;
+}
+
+button.equal {
+  background-color: #6b6b6b;
+}
+
+button:hover {
+  background: #747373b9;
+}
+
+button:active {
+  background: #5a5a5a;
+}
