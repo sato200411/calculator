@@ -38,5 +38,5 @@ GitHub Pages にホスティングしている場合はこちら：
 
 1. このリポジトリをクローン：
 
-   git clone https://github.com/sato200411.github.io/calculator.git
+   git clone git clone https://github.com/sato200411/calculator.git
 
