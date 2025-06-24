@@ -28,7 +28,6 @@
 　ツカッテ(https://tsukatte.com/flower-pattern-01/)
 
 # デモページ
-
 GitHub Pages にホスティングしている場合はこちら：
 
 👉 [電卓を使ってみる](https://sato200411.github.io/calculator/)  
@@ -38,5 +37,5 @@ GitHub Pages にホスティングしている場合はこちら：
 
 1. このリポジトリをクローン：
 
-   git clone git clone https://github.com/sato200411/calculator.git
+   git clone https://github.com/sato200411/calculator.git
 
